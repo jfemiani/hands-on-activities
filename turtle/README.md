@@ -37,7 +37,7 @@ t.left(90)
 ```
 
 #### Exercise
-*Can you draw a square with the turtle?*
+*Can you draw a square with the turtle? Try modifying the code below*
 
 
 <iframe src="https://trinket.io/embed/python/e34bd4c326" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -54,12 +54,13 @@ for i in range(8):
     t.left(360/8)
 ```
 
+Try it out below:
+
 <iframe src="https://trinket.io/embed/python/cc4cbbd80e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 You can also use a _variable_ to in order to hold data (such as the number of sides). 
 
-Try changing the value of `n` in this code:
 
 ```python
 n = 8
@@ -67,6 +68,8 @@ for i in range(n):
     t.forward(300/n)
     t.left(360.0/n)
 ```
+
+Try changing the value of `n` in this code:
 
 <iframe src="https://trinket.io/embed/python/d4ba390f66" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -84,6 +87,7 @@ for i in range(n):
     t.left(360.0/n)
 t.end_fill()
 ```
+Try changing the fill color of this shape:
 
 <iframe src="https://trinket.io/embed/python/ac7c984827" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -102,17 +106,19 @@ for i in range(n):
 t.end_fill()
 t.fillcolor(old_color)
 ```
+Notice that the turtle ends up in the same position and color that it started with:
+
 <iframe src="https://trinket.io/embed/python/fb28cf3f34" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 You can also change the line color using `t.color()` or change it with `t.color('blue')` (or similar). Try it out!
 
 #### Exercise
-_ Can you draw a 5 pointed star?  It is very similar to the code above, except that you turn right by an angle of `180*(1-1/n)`. _
+_ Can you modify the code above to draw a 5 pointed star?  It is very similar to the code above, except that you turn right by an angle of `180*(1-1/n)`. _
 
 
 
 
-Another way to repeat code is by defining a function. In python you defin a function like this:
+Another way to repeat code is by defining a function. In python you define a function like this:
 
 ```python
 def star(t):
@@ -134,6 +140,8 @@ star(t)
 t.penup();  t.goto(60, 0); t.pendown()
 star(t)
 ```
+
+Try it out below -- see if you add some stars at different locations...
 
 <iframe src="https://trinket.io/embed/python/29e3a4d3a4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -162,6 +170,8 @@ star(t,  0, 0, 20, 9)
 t.hideturtle()
 ```
 
+Let's see what that looks like below:
+
 <iframe src="https://trinket.io/embed/python/7f64bc1805" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
@@ -170,6 +180,8 @@ _ Can you add a parameter to change the fill color of the star? _
 
 #### Exercise 
 _ What else can you draw with the turtle? Use loops and functions to make interesting shapes. _
+
+(I modified it to draw random shapes below)
 
 <iframe src="https://trinket.io/embed/python/a8bffcbebe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
