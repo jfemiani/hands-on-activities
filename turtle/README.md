@@ -113,7 +113,7 @@ Notice that the turtle ends up in the same position and color that it started wi
 You can also change the line color using `t.color()` or change it with `t.color('blue')` (or similar). Try it out!
 
 #### Exercise
-_ Can you modify the code above to draw a 5 pointed star?  It is very similar to the code above, except that you turn right by an angle of `180*(1-1/n)`. _
+_Can you modify the code above to draw a 5 pointed star?  It is very similar to the code above, except that you turn right by an angle of `180*(1-1/n)`._
 
 
 
@@ -176,10 +176,10 @@ Let's see what that looks like below:
 
 
 #### Exercise
-_ Can you add a parameter to change the fill color of the star? _
+_Can you add a parameter to change the fill color of the star?_
 
 #### Exercise 
-_ What else can you draw with the turtle? Use loops and functions to make interesting shapes. _
+_What else can you draw with the turtle? Use loops and functions to make interesting shapes._
 
 (I modified it to draw random shapes below)
 
